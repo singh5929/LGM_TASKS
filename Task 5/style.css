@@ -1,0 +1,37 @@
+body{
+    margin:0;
+}
+.img{
+    position: relative;
+  
+}
+.img img{
+    height:741px;
+    width:1460px;
+}
+.txt {
+    position: absolute;
+    top: 5%;
+    left: 30%;
+
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 14px;
+    color: white;
+  }
+  .link{
+    position:absolute;
+    top:20%;
+    left:38%;
+    color:white;
+  }
+  .link a{
+   margin-top:10px;
+    text-decoration: none;
+    color:black;
+    padding:4px 8px;
+    background-color: yellow;
+    border-radius: 10px;
+  }
+   .link a:hover{
+     color:blue;
+  }
