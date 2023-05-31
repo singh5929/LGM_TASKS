@@ -1,0 +1,48 @@
+
+.body{
+    margin:6% 30%;
+      height:540px;
+      width:640px;
+      background-color: rgb(1, 1, 29);
+      border-radius:10px;
+      box-shadow:2px 6px 4px 4px gray ;
+  }
+  .display input{
+        margin-top:30px;
+        margin-left:20px;
+        width:520px;
+        height:70px;
+        border-radius: 10px;
+        background-color:rgb(244, 235, 235);
+        font-size: 20px;
+  }
+  .display button{
+      height:70px;
+      width:60px;
+      border-radius:10px;
+      background-color: rgb(238, 23, 23);
+      color:white;
+      cursor:pointer;
+  }
+  .row1,.row2,.row3,.row4 {
+         margin-left:25px;
+         margin-top:30px;
+  }
+  #num1,#num2,#num3,#num4,#num5,#num6,#num7,#num8,#num9,#dot,#zero,#equals,#div,#minus,#plus,#asterik{
+      height:70px;
+      background-color: rgb(39, 94, 213);
+      color:white;
+      border-radius: 10px;
+      font-size: 28px;
+      cursor:pointer;
+  
+  }
+  #equals{
+      background-color:  rgb(238, 23, 27);
+  }
+  #num1,#num2,#num3,#num4,#num5,#num6,#num7,#num8,#num9,#dot,#zero,#equals{
+      width:165px;
+  }
+  #div,#minus,#plus,#asterik{
+      width:80px;
+  }
