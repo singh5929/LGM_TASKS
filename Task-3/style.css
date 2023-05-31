@@ -1,0 +1,202 @@
+body{
+    margin:0;
+  }
+  .top{
+    margin:0;
+    height:60px;
+    width:100%;
+    background-color: rgb(49, 102, 237);
+    color: white;
+    display: inline-block;
+  }
+  h2{
+    font-size: 32px;
+    text-align: center;
+  }
+  .form{
+    float:left;
+    width:45%;
+    height:600px;
+  margin-top:4%;
+  margin-left:5%;
+  border-right:4px solid rgb(0, 255, 183);
+  }
+  label{
+    font-size: 24px;
+  }
+  #name,#email,#website,#image{
+    margin-left: 112px;
+    margin-top: 10px;
+    height:40px;
+    width:240px;
+    border: 2px solid rgb(128, 128, 128);
+   border-radius: 10px;
+  }
+  #website{
+    margin-left: 95px;
+    margin-top: 10px;
+    height:40px;
+    width:240px;
+    border: 2px solid gray;
+   border-radius: 10px;
+  }
+  #image{
+    margin-left: 60px;
+    margin-top: 10px;
+    height:40px;
+    width:240px;
+    border: 2px solid gray;
+   border-radius: 10px;
+  }
+  #male{
+    margin-left: 95px;
+    margin-top: 20px;
+    border: 2px solid gray;
+   border-radius: 10px;
+  }
+  #female{
+    margin-left:170px;
+    margin-top: 10px;
+    border: 2px solid gray;
+   border-radius: 10px;
+  }
+  #java{
+    margin-left: 110px;
+    margin-top: 20px;
+    border: 2px solid gray;
+   border-radius: 10px;
+  }
+  #enroll{
+  height:45px;
+  width:180px;
+  margin-top:30px;
+  padding:12px 14px;
+  color:white;
+  background-color: rgb(99, 48, 219);
+  font-size: 18px;
+  border:none;
+  border-radius: 10px;
+  cursor:pointer;
+  }
+  #clear{
+    height:45px;
+  width:100px;
+  margin:30px 20px;
+  padding:12px 14px;
+  color:white;
+  background-color: rgb(255, 0, 0);
+  font-size: 18px;
+  border:none;
+  border-radius: 10px;
+  cursor:pointer;
+  }
+  
+  .right{
+    height:100%;
+    width:49%;
+    float: right;
+  }
+  
+  #list_container li{
+  float:left;
+  display: inline;
+  list-style: none;
+  font-size: 16px;
+  margin-left: 50px;
+  padding:10px 0 0 8px;
+  width:420px;
+  border:3px solid rgb(212, 243, 111);
+  
+  }
+  #list_container li:nth-child(odd){
+  background-color:whitesmoke; 
+  }
+  #list_container li:nth-child(even){
+  background-color:rgb(237, 255, 209) ;
+  }
+  #img_container li{
+  float:right;
+  display: inline;
+  list-style: none;
+  margin-right:52px;
+  padding:6px 8px;
+  border:3px solid rgb(212, 243, 111);
+  }
+  img{
+  height:165px;
+  width:130px;
+  }
+  #img_container li:nth-child(odd){
+  background-color:whitesmoke; 
+  }
+  #img_container li:nth-child(even){
+  background-color:rgb(237, 255, 209) ;
+  }
+  .sectionHeading{
+  display:flex;
+  align-items: center;
+  background-color: rgb(224, 255, 47);
+  color:#fff;
+  box-sizing: border-box;
+  border: 2px solid rgb(210, 253, 56);
+  }
+  .sectionHeading p{
+  padding:10px 12px;
+  margin:0;
+  font-size: 20px;
+  font-weight:700;
+  }
+  .description{
+  box-sizing: border-box;
+  border-right:2px solid  rgb(210, 253, 56);
+  margin-bottom:0;
+  width:70%;
+  }
+  .image{
+  margin-bottom:0;
+  width:30%;
+  
+  }
+  .userName{
+  font-weight:bold;
+  }
+  .wrapper{
+  
+  box-sizing: border-box;
+  display:flex;
+  align-items: center;
+  width:100%;
+  height:190px;
+  justify-content: space-between;
+  border: 2px solid rgb(210, 253, 56);
+  border-top:none;
+  
+  }
+  .wrapper:nth-child(odd){
+  background-color: whitesmoke;
+  }
+  .wrapper:nth-child(even){
+  background-color: rgb(232, 255, 196) ;
+  }
+  .textInfoContainer{
+  width:67.7%;
+  height:100%;
+  box-sizing:border-box;
+  border-right:2px solid  rgb(226, 244, 163);
+  padding:6px;
+  }
+  .imageContainer{
+  
+  width:20%;
+  height:100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding:10px;
+  box-sizing: border-box;
+  }
+  .userImage{
+  height:160px;
+  width:130px;
+  padding-right:40px;
+  }
